@@ -69,6 +69,11 @@ width: 400px;
    margin-left: 69px;
 
   }
+.Change:hover {
+ color: hsl(245, 75%, 52%);
+ opacity: 50%;
+ cursor: pointer;
+}
   .details{
     background-color: hsl(225, 100%, 98%);
     width: 332px;
@@ -123,6 +128,15 @@ button.Proceed {
     font-weight: var(--font-weight-bold);
     box-shadow: 0 6px 9px hsl(236, 65%, 70%);
 }
+button.Proceed:hover {
+ background-color: hsl(245, 75%, 52%);
+ opacity: 50%;
+ cursor: pointer;
+}
+button.Cancel:hover {
+ color: hsl(224, 23%, 35%);;
+ cursor: pointer;
+}
 button.Cancel {
     border: none;
     width: 299px;
@@ -135,6 +149,7 @@ button.Cancel {
     font-weight: var(--font-weight-bold);
     color: hsl(224, 23%, 55%);
     background-color: white;
+
 
 }
 @media  (max-width:375px){
@@ -194,6 +209,11 @@ button.Cancel {
         margin-left: 21px;
 
   }
+  .Change:hover {
+ color: hsl(245, 75%, 52%);
+ opacity: 50%;
+ cursor: pointer;
+}
   .details{
     background-color: hsl(225, 100%, 98%);
    width: 272px;
@@ -248,6 +268,15 @@ button.Proceed {
     font-family: var(--font-family);
     font-weight: var(--font-weight-bold);
     box-shadow: 0 6px 9px hsl(236, 65%, 70%);
+}
+button.Proceed:hover {
+ background-color: hsl(245, 75%, 52%);
+ opacity: 50%;
+ cursor: pointer;
+}
+button.Cancel:hover {
+ color: hsl(224, 23%, 35%);;
+ cursor: pointer;
 }
 button.Cancel {
     border: none;
